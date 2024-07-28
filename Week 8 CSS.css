@@ -1,0 +1,37 @@
+ /*styles for the board*/
+ #divChessboard{
+    width: 480px;
+    height: 480px;
+    border: 2px solid #ff9900ff;
+}
+
+
+/*The styles for the chess squares*/
+.chessSquare{
+    float: left; /* align the squares next to eachother */
+    width: 60px; /* set the width of each square */
+    height: 60px; /*set the height of each square*/
+    background-color: #5cecffff;
+}
+
+.chessPiece{
+    width: 55px;
+    height: 55px;
+    margin: 2.5px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px #ff61c6ff;
+}
+
+.chessPiece-w{
+    background-color: #f4ff61ff;
+}
+
+.chessPiece-b{
+    background-color: #0a0c37ff
+}
+body{
+    background-color: #0a0c37ff;
+}
+h1{
+    color: #ff9900ff;
+}

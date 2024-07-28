@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 8 Chessboard</title>
+<link rel="stylesheet" href="Week 8 CSS.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Our checkers board.
+        </h1>
+    </header>
+    <main>
+        <!--Where we add our chessboard.-->
+        <div id="divChessboard">
+
+
+        </div>
+        <span id="selectedSquare" style="display: none;"></span>
+    </main>
+
+    <script src="Week 8 Java.js"></script>
+
+    <script>
+    //setup the nickname to the div where the chessboard should go.
+    var chessboard = document.getElementById("divChessboard");
+
+    createChessboard(chessboard);
+    </script>
+</body>
+</html>
